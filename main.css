@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+
+.calculator{
+    border: rgba(0,0,0, 0.2) 5px solid;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.screen{
+    height: 20%;
+    text-align: right;
+    border: rgba(0,0,0, 0.2) 5px solid;
+    
+}
+
+.screen-text{
+    font-size: 50px;
+    position: relative;
+    top: 30%;
+    right: 5%;
+}
+
+.buttons{
+    display: grid;
+    height: 80%;
+    grid-template: repeat(5, 1fr) / repeat(4, 1fr);
+}
+
+.button{
+    border: rgba(0, 0, 0, 0.2) solid 1px;
+    font-size: 20px;
+}
