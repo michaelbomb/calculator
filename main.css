@@ -13,11 +13,11 @@
     height: 20%;
     text-align: right;
     border: rgba(0,0,0, 0.2) 5px solid;
-    
+    overflow: scroll;
 }
 
 .screen-text{
-    font-size: 50px;
+    font-size: 20px;
     position: relative;
     top: 30%;
     right: 5%;

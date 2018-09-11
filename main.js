@@ -1,39 +1,3 @@
-function add(a, b)
-{
-    return a + b;
-}
-function subtract(a, b)
-{
-    return a - b;
-}
-function multiply(a, b)
-{
-    return a * b;
-}
-function divide(a, b)
-{
-    return a / b;
-}
-function operate(operator, a, b)
-{
-    let f;
-    switch (operator)
-    {
-        case '+':
-            f = add;
-            break;
-        case '-':
-            f = subtract;
-            break;
-        case '*':
-            f = multiply;
-            break;
-        case '/':
-            f = divide;
-            break;
-    }
-    return f(a, b);
-}
 
 function evaluateExpression(str)
 {
